@@ -1,0 +1,52 @@
+
+
+.catBubble {
+  background: #aaa;
+  border-radius: 5px;
+  padding: 0.5em;
+  margin-left: 1em;
+}
+
+.catList {
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: row wrap;
+  align-content: flex-start;
+}
+.mainHeader {
+  width: 100%;
+  background: #002B5C;
+}
+
+.mainHeader > h1 {
+  line-height: 4em;
+  color: #F9A01B;
+  margin: 0 0 0 2%;
+}
+.mainNav {
+  width: 100%;
+  background: #00471B;
+  color: #fff;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: flex-start;
+  border-bottom: 1px solid #fff;
+  border-top: 1px solid #fff;
+  margin-bottom: 5px;
+  padding-left: 2em;
+}
+.mainNav > a {
+  text-decoration: none;
+  color: #fff;
+  line-height: 2.5em;
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.postAuthor {
+  font-weight: 900;
+  color: #00471B;
+}
+.postTitle {
+  text-decoration: underline;
+}
